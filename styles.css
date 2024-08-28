@@ -68,7 +68,7 @@ article{
     color: #FFFFFF;
 }
 
-h1{
+.hi{
     width: 919px;
     height: 205px;
     font-size: 55px;
@@ -80,24 +80,148 @@ h1{
     padding-top: 29px;
 }
 
+.block{
+    margin-left: 125px;
+}
 
 .proekt{
     width: 1048px;
-    height: 72px;
     font-size: 55px;
     line-height: 71.5px;
     letter-spacing: -0.03em;
-    text-align: left;
     color: #FFFFFF;
+    text-align: left;
     padding-top: 150px;
+    margin-bottom: 40px;
 }
 
 .proekt_block{
     width: 1150px;
     height: 550px;
-    margin-top: 40px;
-    border-radius: 30px 30px;
-    background-image: url('ekr.png');
+}
+
+.izo{    
+    width: 1150px;
+    height: 550px;
+    border-radius: 30px 30px 30px 30px;
     background-repeat: no-repeat;
-    
+    background-size: cover;
+    position: absolute;
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+
+}
+
+.real{
+    width: 255px;
+    font-size: 55px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: red;
+    position: relative;
+    top: 410px;
+    left: 50px;
+}
+
+.dop{
+    width: 506px;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: -0.03em;
+    position: relative;
+    top: 415px;
+    left: 50px;
+    color: red;
+}
+
+.smotret{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    width: 582px;
+    height: 153px;
+    border-radius: 10px;
+    background-color: #1BFF07;
+    margin-top: 80px;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: -0.03em;
+    padding: 56px 85px 58px 86px;
+    color: #000000;
+}
+
+.three_block{
+    width: 1048px;
+    height: 1377px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.kompetetion{
+    width: 1048px;
+    color: #FFFFFF;
+    font-size: 55px;
+    line-height: 71.5px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+.skills{
+    margin-bottom: 60px;
+}
+
+.language{
+    width: 1048px;
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #1BFF07;
+    margin-top: 12px; 
+    margin-bottom: 15px;  
+}
+
+.this{
+    width: 778px;
+    font-size: 22px;
+    line-height: 28.6px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+h2{
+    width: 403px;
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 74px;
+}
+
+.tasks{
+    width: 1150px;
+    height: 283px;
+    border-radius: 30px;
+    background-color: #191C19;
+    padding: 40px 62px 40px 40px;
+}
+.tasks_h{
+    width: 1048px;
+    font-size: 55px;
+    line-height: 71.5px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #1BFF07;
+}
+
+.tasks_p{
+    width: 749px;
+    font-size: 22px;
+    line-height: 28.6px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #FFFFFF;
 }
