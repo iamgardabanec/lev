@@ -2,7 +2,6 @@ body{
     font-family: "IBM Plex Mono", monospace;
     font-weight: 400;
     font-style: normal;
-    width: 1400px;
     background-color: #000000;
     margin: 0 auto;
 }
@@ -14,19 +13,14 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 75%;
+    padding: 27px 124px 94px 125px;
 }
 
-.header{
-    width: 1153px;
-    height: 55px;
-    display: flex;
-    padding: 27px 124px 0px 123px;
-}
 .header__gasanov-article{
     width: 160px;
     height: 50px;
     background-color: #000000;
-    border-radius: 100px 100px 100px 100px;
+    border-radius: 100px;
     padding: 4px 12px 7px 12px;
 }
 
@@ -39,9 +33,7 @@ header{
 }
 
 .header__menu {
-    display: inline-block;
-    margin-top: 6px;
-    margin-left: 520px;
+    display: block;
 }
 
 .header__menu-nav{
@@ -49,33 +41,33 @@ header{
     font-size: 18px;
     line-height: 23.4px;
     letter-spacing: -0.03em;
-    text-align: left;
+    margin-left: 50px;
     color: #FFFFFF;
+    float: right;
 }                                                               
 
-.header__opisanie {
+.header__text {
     width: 430px;
     font-size: 20px;
     line-height: 26px;
     letter-spacing: -0.03em;
     text-align: left;
-    margin: 252px 0px 29px 125px;
+    margin: 252px 0px 29px 0px;
     color: #FFFFFF;
 }
 
-.header__iam{
+.header__title{
     width: 919px;
     font-size: 70px;
     line-height: 70px;
     letter-spacing: -0.03em;
     text-align: left;
     color: #1BFF07;
-    margin-left: 119px;
     margin-bottom: 94px;
 }
 
 .container{
-    max-width: 1180px;
+    max-width: 1185px;
     padding: 75px 15px;
     margin: 0 auto;
 }
@@ -137,7 +129,7 @@ header{
     width: 582px;
     height: 153px;
     border-radius: 10px;
-    color: #000000;
+    color: #000000  ;
     background-color: #1BFF07;
     margin-top: 80px;
     font-size: 30px;
