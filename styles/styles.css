@@ -6,7 +6,7 @@ body{
     margin: 0 auto;
 }
 
-header{
+.hero{
     width: 100%;
     height: 765px;
     background-image: url('../resourses/ya.jpg');
@@ -14,6 +14,11 @@ header{
     background-size: cover;
     background-position: 50% 75%;
     padding: 27px 124px 94px 125px;
+}
+
+.container__hero{
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .header__gasanov-article{
@@ -68,18 +73,20 @@ header{
 
 .container{
     max-width: 1185px;
-    padding: 75px 15px;
+    padding: 0px 15px;
     margin: 0 auto;
 }
 
+.project{
+    margin: 150px 0px;
+}
+
 .project__title{
-    width: 1048px;
     font-size: 55px;
     line-height: 71.5px;
     letter-spacing: -0.03em;
     color: #FFFFFF;
-    text-align: left;
-    padding-top: 75px;
+
     margin-bottom: 40px;
 }
 
@@ -137,6 +144,10 @@ header{
     letter-spacing: -0.03em;
     padding: 56px 85px 58px 86px;
     color: #000000;
+}
+
+.competencies{
+    margin-bottom: 150px;
 }
 
 .competencies__my{
