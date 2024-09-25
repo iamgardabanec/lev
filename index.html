@@ -11,18 +11,19 @@
 </head>
 <body>
 
-<header>
-<div class="container__hero">
-<div class="hero">
+<header class="header">
+<div class="container">
+    <div class="header__inner">
+    <div class="header__gasanov"><article class="header__gasanov-article">Gasanov</article></div>
     <nav class="header__menu"> 
-    <ul>
+    <ul class="header__menu-list">
             <li><a class="header__menu-nav" href="#portfolio">портфолио</a></li>
             <li><a class="header__menu-nav" href="#portfolio">компетенции</a></li>
             <li><a class="header__menu-nav" href="#portfolio">услуги</a></li>
             <li><a class="header__menu-nav" href="#portfolio">контакты</a></li>
     </ul>
     </nav>
-    <div class="header__gasanov"><article class="header__gasanov-article">Gasanov</article></div>    
+</div>
 
 
 <p class="header__text">
@@ -37,24 +38,38 @@
 </header>
 
 <main>
-    <section class="project">
+    <section class="projects">
     <div class="container">    
-        <h2 class="project__title">Самые свежие проекты</h2>
-        <div class="project__block">
-            <img class="project__block-img" src="./resourses/ekr.png">
-            <p class="project__block-title">Realhome</p>
-            <p class="project__block-text">дизайн,верстка, настройка</p>
-        </div>
-        <div class="project__block">
-            <img class="project__block-img" src="./resourses/mak.png" alt="">
-            <p class="project__block-title">GLASS</p>
-            <p class="project__block-text">разработка интерфейса</p>
-        </div>
-        <div class="project__block">
-            <img class="project__block-img" src="./resourses/interfeys.png">
-            <p class="project__block-title">Fesiyen</p>
-            <p class="project__block-text">разработка интерфейса</p>
-        </div>
+        <h2 class="projects__title">Самые свежие проекты</h2>
+<ul class="projects__list">
+<li class="project">
+    <a class="project__link">
+                        <img class="project__img" src="./resourses/ekr.png">
+<div class="project__box">
+                            <p class="project__title">Realhome</p>
+                            <p class="project__text">дизайн,верстка, настройка</p>
+</div>
+    </a>
+</li>
+<li class="project">
+    <a class="project__link">
+                        <img class="project__img" src="./resourses/mak.png" alt="">
+<div class="project__box">
+                            <p class="project__title">GLASS</p>
+                            <p class="project__text">разработка интерфейса</p>
+</div>
+    </a>
+</li>
+<li class="project">
+    <a class="project__link">
+                          <img class="project__img" src="./resourses/interfeys.png">
+<div class="project__box">
+                            <p class="project__title">Fesiyen</p>
+                            <p class="project__text">разработка интерфейса</p>
+</div>
+    </a>
+</li>
+</ul>
         <a class="project__btn" href="/">Смотреть все проекты</a>
     </div>
     </section>
@@ -64,25 +79,25 @@
     <h2 class="competencies__my">Мои компетенции</h2>
         <div class="competencies__column">
             <img src="./resourses/html.png">
-            <h1 class="competencies__column-title">HTML и CSS</h1>
+            <h3 class="competencies__column-title">HTML и CSS</h3>
             <p class="competencies__column-text">это основа фронтенд разработки. Умение создавать и правильно структурировать HTML-документы, а также применять стили к этим документам на CSS, является обязательным навыком для каждого фронтенд разработчика.  
             </p>
         </div>
         <div class="competencies__column">
             <img src="./resourses/js.png">
-            <h1 class="competencies__column-title">JavaScript</h1>
+            <h3 class="competencies__column-title">JavaScript</h3>
             <p class="competencies__column-text">это язык программирования, который используется для создания динамического и интерактивного пользовательского интерфейса. Хороший фронтенд разработчик должен быть знаком с основами JavaScript, включая работу с DOM-деревом, асинхронными запросами и манипуляцией данными на стороне клиента.
             </p>
         </div>
         <div class="competencies__column">
             <img src="./resourses/phone.png">
-            <h1 class="competencies__column-title">Работа с библиотеками и фреймворками</h1>
+            <h3 class="competencies__column-title">Работа с библиотеками и фреймворками</h3>
             <p class="competencies__column-text">фронтенд разработчики должны быть знакомы с различными библиотеками и фреймворками, такими как React, Angular, Vue и другими. Умение использовать готовые решения, адаптировать их под нужды проекта и расширять их функциональность, является очень важным навыком.
             </p>
         </div>
         <div class="competencies__column">
             <img src="./resourses/phone.png">
-            <h1 class="competencies__column-title">Разработка для мобильных устройств и адаптивная верстка</h1>
+            <h3 class="competencies__column-title">Разработка для мобильных устройств и адаптивная верстка</h3>
             <p class="competencies__column-text">фронтенд разработчики должны быть знакомы с различными библиотеками и фреймворками, такими как React, Angular, Vue и другими. Умение использовать готовые решения, адаптировать их под нужды проекта и расширять их функциональность, является очень важным навыком.   
             </p>
     </div>
@@ -93,7 +108,7 @@
             <h2 class="services__title">Помогаю реализовать широкий спектр задач</h2>
             <img class="services__img" src="./resourses/Rectangle 15.png">
             <div class="services__column">
-                <h1 class="services__column-title">Разработка сайта под ключ</h1>
+                <h3 class="services__column-title">Разработка сайта под ключ</h3>
                 <p class="services__column-text">Это создание дизайн веб-сайтов, созданный для удобства пользователя и решения бизнес-задач
                     Сайты должны быть понятными и удобными, ведь чем понятнее сайт, тем быстрее пользователь совершит целевое действие
                 </p>
@@ -101,14 +116,14 @@
 
             <img class="services__img" src="./resourses/Rectangle 18.png">
             <div class="services__column">
-                <h1 class="services__column-title">Верстка сайтов</h1>
+                <h3 class="services__column-title">Верстка сайтов</h3>
                 <p class="services__column-text">Это процесс создания HTML-документов и применения к ним стилей на CSS. Фронтенд разработчик может помочь создать привлекательный и удобный интерфейс для вашего сайта
                 </p>
             </div>
 
             <img class="services__img" src="./resourses/Rectangle 20.png">
             <div class="services__column">
-                <h1 class="services__column-title">Разработка мобильного интерфейса</h1>
+                <h3 class="services__column-title">Разработка мобильного интерфейса</h3>
                 <p class="services__column-text">Это процесс создания интерактивных элементов на странице с помощью JavaScript. Фронтенд разработчик может помочь создать динамический и удобный пользовательский интерфейс для вашего сайта или приложения.
                 </p>
             </div>
