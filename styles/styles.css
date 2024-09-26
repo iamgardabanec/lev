@@ -183,6 +183,10 @@ body{
     color: #FFFFFF;
 }
 
+.services{
+    margin-bottom: 150px;
+}
+
 .services__title{
     width: 403px;
     font-size: 35px;
@@ -224,4 +228,69 @@ body{
     letter-spacing: -0.03em;
     text-align: left;
     color: #FFFFFF;
+}
+
+.contact{
+    max-width: 1400px;
+    height: 717px;
+    margin: 0 auto;
+}
+
+.contacts__img{
+    position: absolute;
+}
+
+.contacts__inst{
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+    position: relative;
+    left: 427px;
+    top: 408px;
+}
+
+.contacts__telega{
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+    position: relative;
+    left: 395px;
+    top: 428px;
+}
+
+.contacts__mail{
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+    position: relative;
+    left: 258px;
+    top: 448px;
+}
+
+.portfolio{
+    height: 289px;
+    background-color: #FFFFFF;
+    margin-top: 150px;
+    border-radius: 30px;
+    padding-top: 76px;
+}
+
+.portfolio__title{
+    font-size: 22px;
+    line-height: 30.05px;
+    letter-spacing: -0.03em;
+    margin-bottom: 66px;
+}
+
+.portfolio__text{
+    font-size: 20px;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    opacity: 50%;
 }
