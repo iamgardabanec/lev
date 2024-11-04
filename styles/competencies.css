@@ -1,0 +1,55 @@
+.competencies{
+    background-image: url('../resourses/smotru.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    padding: 150px 0px;
+}
+
+.competencies__my{
+    width: 1048px;
+    color: #FFFFFF;
+    font-size: 55px;
+    line-height: 71.5px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+.competencies__column{
+    margin-top: 60px;
+}
+
+.competencies__column-title{
+    max-width: 651px;
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #1BFF07;
+    margin-top: 12px; 
+    margin-bottom: 15px;  
+}
+
+.competencies__column-title-three{
+    max-width: 900px;
+    color: black;
+}
+
+.competencies__column-title-four{
+    color: white;
+}
+
+.competencies__column-text{
+    max-width: 778px;
+    font-size: 22px;
+    line-height: 28.6px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.competencies__column-text-black{
+    background-color: black;
+    opacity: 70%;
+}
