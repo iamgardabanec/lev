@@ -1,5 +1,5 @@
 .competencies{
-    background-image: url('../resourses/smotru.jpg');
+    background-image: url('../resourses/lev.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -26,18 +26,13 @@
     line-height: 45.5px;
     letter-spacing: -0.03em;
     text-align: left;
-    color: #1BFF07;
+    color: greenyellow;
     margin-top: 12px; 
     margin-bottom: 15px;  
 }
 
 .competencies__column-title-three{
     max-width: 900px;
-    color: black;
-}
-
-.competencies__column-title-four{
-    color: white;
 }
 
 .competencies__column-text{
@@ -47,9 +42,4 @@
     letter-spacing: -0.03em;
     text-align: left;
     color: #FFFFFF;
-}
-
-.competencies__column-text-black{
-    background-color: black;
-    opacity: 70%;
 }
