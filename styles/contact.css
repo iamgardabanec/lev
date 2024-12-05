@@ -5,12 +5,13 @@
 }
 
 .contacts{
-    width: 100%;
+    width: 1400px;
     height: 717px;
     background-image: url('../resourses/Frame\ 25.png');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin: 0 auto;
 }
 
 .contacts__inst{
@@ -20,8 +21,8 @@
     color: #FFFFFF;
     text-decoration: none;
     position: absolute;
-    top: 300px;
-    left: 300px;
+    top: 408px;
+    left: 430px;
 }
 
 .contacts__telega{
@@ -30,6 +31,9 @@
     letter-spacing: -0.03em;
     color: #FFFFFF;
     text-decoration: none;
+    position: absolute;
+    top: 488px;
+    left: 395px;
 }
 
 .contacts__mail{
@@ -38,4 +42,7 @@
     letter-spacing: -0.03em;
     color: #FFFFFF;
     text-decoration: none;
+    position: absolute;
+    top: 568px;
+    left: 255px;
 }
