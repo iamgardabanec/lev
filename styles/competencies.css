@@ -1,5 +1,4 @@
 .competencies{
-    background-image: url('../resourses/lev.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -14,6 +13,17 @@
     letter-spacing: -0.03em;
     text-align: left;
     margin-bottom: 48px;
+}
+
+.competencies__ul{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 45px;
+    justify-content: space-between;
+}
+
+.competencies__ul-li{
+    width: calc(50% - 10px);
 }
 
 .competencies__column{
@@ -31,13 +41,8 @@
     margin-bottom: 15px;  
 }
 
-.competencies__column-title-three{
-    max-width: 900px;
-}
-
 .competencies__column-text{
-    max-width: 778px;
-    font-size: 22px;
+    font-size: 23px;
     line-height: 28.6px;
     letter-spacing: -0.03em;
     text-align: left;
